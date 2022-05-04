@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import {FirstComponent} from './FirstTestComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+		<FirstComponent text="Hello Za Warudo"/>
+      </header>
+	<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,11 +20,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-	  <h1>Hello World</h1>
-	  <p>I'll explore React.js</p>
     </div>
-  );
+  ); 	
 }
 
 export default App;
